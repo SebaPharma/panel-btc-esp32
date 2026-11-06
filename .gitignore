@@ -1,0 +1,15 @@
+# Compilación
+.pio/
+.vscode/*
+!.vscode/extensions.json
+
+# Claves y datos personales: nunca se suben
+include/secrets.h
+src/secrets.h
+
+# Se genera solo al compilar
+include/gif_data.h
+
+# Tus GIF personales quedan en tu PC; solo se publica la moneda K
+data/*.gif
+!data/k_coin.gif
